@@ -21,3 +21,21 @@ mygen = mygenerator()
 print(next(mygen))
 print(next(mygen))
 print(next(mygen))
+
+
+
+
+print("Numeric generator")
+def numgenerator():
+    i=0
+    while i<10:
+        yield i
+        i=i+1
+    return i
+
+n = numgenerator()
+print(next(n))
+print(next(n))
+print(next(n))
+print(next(n))
+print(next(n))
