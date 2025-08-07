@@ -20,6 +20,7 @@ st["Branch"] = "IT"
 ol = [st]
 st1=dict()
 st1["name"] = "Rohan"
+
 st1["Age"]=25
 st1["Branch"] = "CS"
 
@@ -28,3 +29,11 @@ ls =[st1,st]
 print(ls)
 print(ol)
 
+emp ={"name":"Raj","Dept":"IT","Designation":"Test Lead"}
+print(emp)
+
+# Access Data
+emp["rating"] =1
+print(emp.get("name"))
+print(emp["name"])
+print(emp)
