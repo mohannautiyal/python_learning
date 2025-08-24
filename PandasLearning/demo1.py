@@ -19,3 +19,7 @@ df_students =pd.DataFrame(dict)
 print(df_students)
 
 print(df_students.index)
+df_studentsInd=df_students.set_index('empName')
+print(df_studentsInd.index)
+
+print(df_studentsInd)
