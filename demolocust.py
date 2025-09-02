@@ -24,6 +24,10 @@ class MyUserBehaviour(SequentialTaskSet):
 
 
 # The main HttpUser class that uses the SequentialTaskSet.
+# Represents an "Http user" which is to be spawned and attack the system
+# it creates a client (instance of HttpSession)
+# GET POST DELETE PATCH, headers, text, status_code etc
+
 class demoload(HttpUser):
 
     host=""
